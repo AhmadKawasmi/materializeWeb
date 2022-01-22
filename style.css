@@ -1,3 +1,7 @@
+body{
+    min-width:365px ;
+}
+
 .header {
     position: fixed;
     background-color: #001219;
@@ -28,7 +32,7 @@
     box-shadow: 0 0 10px #001219;
 }
 
-.material-icons{
+.card .material-icons{
     background-color: #0a9396;
 }
 
@@ -45,3 +49,35 @@
 .navUlLi:hover{
     border-bottom: 4px solid #0a9396;
 }
+
+
+.mainContent{
+    margin-top: 4px;
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+
+#mainImg{
+    width: 100%;
+    height: 70%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-weight: bold;
+  }
+  
+  .center span{
+      color: #0a9396;
+  }
+
+  #productH3{
+      margin-left: 10%;
+      margin-bottom: 5%;
+      font-weight: bold;
+  }

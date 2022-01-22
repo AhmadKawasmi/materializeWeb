@@ -1,5 +1,6 @@
 .header {
-    background-color: #005f73;
+    position: fixed;
+    background-color: #001219;
 }
 
 .info {
@@ -14,7 +15,33 @@
 }
 
 .card {
-    width: 200px;
-    height: 500px;
-    margin: auto;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #001219;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px #001219;
+}
+
+.material-icons{
+    background-color: #0a9396;
+}
+
+#logo{
+    margin-left: 50px;
+    font-size: large;
+    font-weight: bold;
+} 
+
+#logo span{
+    color: #0a9396;
+}
+
+.navUlLi:hover{
+    border-bottom: 4px solid #0a9396;
 }

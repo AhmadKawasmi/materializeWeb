@@ -39,6 +39,12 @@ body{
     background-color: #0a9396;
 }
 
+.card .material-icons:hover{
+    transition: 0.4s;
+    background-color: #ffffff;
+    color: #0a9396;
+}
+
 #logo{
     margin-left: 50px;
     font-size: large;
@@ -82,9 +88,11 @@ body{
   }
 
   #productH3{
-      margin-left: 10%;
+      padding-left: 10%;
       margin-bottom: 5%;
-      font-weight: bold;
+      width: 100%;
+      font-weight: bolder;
+      color: #001219;
   }
 
   
@@ -96,3 +104,12 @@ body{
       font-weight: bold;
       color: #0a9396;
   }
+
+.footerLinks:hover{
+    color: #0a9396;
+}
+
+.footerLinks{
+    color: rgb(170, 170, 170);
+    transition: 0.4s;
+}

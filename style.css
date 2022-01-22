@@ -1,5 +1,8 @@
 body{
     min-width:365px ;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .header {
@@ -47,6 +50,8 @@ body{
 }
 
 .navUlLi:hover{
+    transition: 0.3s;
+    color: #0a9396;
     border-bottom: 4px solid #0a9396;
 }
 
@@ -80,4 +85,14 @@ body{
       margin-left: 10%;
       margin-bottom: 5%;
       font-weight: bold;
+  }
+
+  
+  .page-footer{
+      background-color: #001219;
+  }
+
+  .sideNavLinks:hover{
+      font-weight: bold;
+      color: #0a9396;
   }

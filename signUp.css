@@ -1,0 +1,40 @@
+body{
+    background-image: url(images/back2.jpeg);
+}
+
+.signUpForm{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+    margin-top:5% ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center;
+    justify-content: center;
+
+}
+
+.BoxForm{
+    background-color: rgba(121, 121, 121, 0.336);
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    box-shadow: 0 0 15px #001219;
+}
+
+.BoxForm input{
+    color: white;
+}
+
+.BoxForm label{
+    color: black;
+}
+
+.buttonColor{
+    background-color: #001219;
+}
+
+.buttonColor:hover{
+    background-color: #0a9396;
+}

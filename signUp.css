@@ -37,3 +37,12 @@ body{
 .buttonColor:hover{
     background-color: #001219;
 }
+
+#forgotPassword{
+    color: #ffff;
+}
+
+#forgotPassword:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #ffff;
+}

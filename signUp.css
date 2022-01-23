@@ -7,10 +7,8 @@ body{
     height: 100%;
     margin-bottom: 5%;
     margin-top:5% ;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-content: center;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -21,6 +19,7 @@ body{
     height: 100%;
     margin: auto;
     box-shadow: 0 0 15px #001219;
+    margin-top: 10px;
 }
 
 .BoxForm input{
@@ -28,13 +27,13 @@ body{
 }
 
 .BoxForm label{
-    color: black;
+    color: #ffff;
 }
 
 .buttonColor{
-    background-color: #001219;
+    background-color: #005f73;
 }
 
 .buttonColor:hover{
-    background-color: #0a9396;
+    background-color: #001219;
 }

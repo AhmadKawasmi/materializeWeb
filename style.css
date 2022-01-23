@@ -81,6 +81,7 @@ body{
     transform: translate(-50%, -50%);
     font-size: 70px;
     font-weight: bold;
+    border-color: #0a9396;
   }
   
   .center span{

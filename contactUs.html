@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AhmadKawasmi</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="signUp.css">
+    <link rel="stylesheet" href="contactUs.css">
+    <title>Document</title>
 </head>
 <body>
     <div class="mainContainer">
@@ -25,6 +25,38 @@
                 </ul>
             </div>
         </nav>
+        <div class="contactUs">
+            <div class="contactUsForm">
+                <h3>Contact Us</h3>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">First Name</label>
+                      </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  </div> 
+                <div class="row">  
+                  <div class="row">
+                        <div class="input-field col s12">
+                          <input id="email" type="email" class="validate">
+                          <label for="email">Email</label>
+                        </div>
+                      </div>
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Subject</label>
+                        </div>
+                      </div>
+                     <button class="btn waves-effect waves-light buttonColor" type="submit" name="action">Submit</button><br>
+                    </form>
+                  </div>
+            </div>
+        </div>
         <ul id="slide-out" class="sidenav">
             <li>
                 <div class="user-view">
@@ -53,75 +85,6 @@
             <li><a class="waves-effect sideNavLinks" href="#!">Product 8</a></li>
             <li><a class="waves-effect sideNavLinks" href="#!">Product 9</a></li>
         </ul>
-        <div class="signUpForm">
-            <div class="BoxForm">
-                <h3>SignIn</h3>
-                <div class="row">  
-                  <div class="row">
-                        <div class="input-field col s12">
-                          <input id="email" type="email" class="validate">
-                          <label for="email">Email</label>
-                        </div>
-                      </div>
-                    <form class="col s12">
-                      <div class="row">
-                        <div class="input-field col s12">
-                          <input id="password" type="password" class="validate">
-                          <label for="password">Password</label>
-                          <p><a id="forgotPassword">forgot pasword ?</a></p>
-                          <form action="#">
-                            <p>
-                              <label>
-                                <input type="checkbox" />
-                                <span>Remember Me</span>
-                              </label>
-                            </p>
-                            </form>
-                        </div>
-                      </div>
-                     <button class="btn waves-effect waves-light buttonColor" type="submit" name="action">LogIn</button>
-                    </form>
-                  </div>
-            </div><br><br>
-            <div class="BoxForm">
-                <h3>SignUp</h3>
-                <div class="row">
-                    <form class="col s12">
-                      <div class="row">
-                        <div class="input-field col s6">
-                            <input id="last_name" type="text" class="validate">
-                            <label for="last_name">First Name</label>
-                          </div>
-                        <div class="input-field col s6">
-                          <input id="last_name" type="text" class="validate">
-                          <label for="last_name">Last Name</label>
-                        </div>
-                      </div> 
-                      <div class="row">
-                        <div class="input-field col s12">
-                          <input id="email" type="email" class="validate">
-                          <label for="email">Email</label>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="input-field col s12">
-                          <input id="password" type="password" class="validate">
-                          <label for="password">Password</label>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="input-field col s12">
-                          <input id="password" type="password" class="validate">
-                          <label for="password">Confirm Password</label>
-                        </div>
-                      </div>
-                      <input type="text" class="datepicker" placeholder="Birthday">
-                      <button class="btn waves-effect waves-light buttonColor" type="submit" name="action">SignUp</button>
-                    </form>
-                  </div>
-
-            </div>
-        </div>
         <footer class="page-footer">
             <div class="container">
               <div class="row">

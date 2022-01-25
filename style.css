@@ -6,7 +6,6 @@ body{
 }
 
 .header {
-    position: fixed;
     background-color: #001219;
 }
 
@@ -81,6 +80,7 @@ body{
     transform: translate(-50%, -50%);
     font-size: 70px;
     font-weight: bold;
+    text-shadow: 0 0 10px #001219;
     border-color: #0a9396;
   }
   
